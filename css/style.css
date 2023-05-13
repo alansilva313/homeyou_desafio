@@ -1,0 +1,229 @@
+@media (min-width: 250px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header, .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 72px;
+        padding-left:  10px;
+        padding-right: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+       
+    }
+
+    .nav i {
+        color: #fff;
+        background-color: black;
+        padding: 4px;
+    }
+
+    .menuhmb img {
+        width: 28px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .capa {
+        width: 100%;
+        background-color: #F9FAFB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        padding-top: 45px;
+        gap: 20px;
+        padding-bottom: 45px;
+
+    }
+
+    .capa h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+    }
+
+    .capa p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #797979;
+    }
+
+    .btncapa {
+        display: flex;
+        gap: 8px;
+    }
+
+    .btncapa a {
+ 
+        width: 147px;
+        text-align: center;
+        height: 31px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .btncapa .a1 {
+        background-color: black;
+        width: 147px;
+        text-align: center;
+        height: 31px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .minimalista {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        padding-top: 45px;
+        gap: 20px;
+    }
+
+    .minimalista h3 {
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .minimalista .textos {
+        background-color: #272727;
+        width: 312px;
+        height: 177px;
+        color: #fff;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+    }
+
+    .minimalista .textos p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .minimalista a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #000;
+    }
+
+    .galeria {
+        width: 100%;
+        background-color: rgb(242, 245, 248);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        padding-top: 45px;
+        gap: 20px;
+    }
+
+    .galeria h3 {
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .galeria p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .imgs {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imgs img {
+        width: 312px;
+        height: 350px;
+    }
+
+    .orcamento {
+        width: 100%;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        padding-top: 45px;
+        gap: 20px;
+        text-align: center;
+        padding-bottom: 45px;
+    }
+
+    .orcamento h3 {
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .orcamento p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+
+    .orcamento a {
+        width: 312px;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 16px;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid #000;
+        color: #000;
+       
+    }
+
+    footer {
+        width: 100%;
+        height: 258px;
+        background-color: #F9FAFB;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    footer h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+
+    footer a {
+        font-size: 12px;
+        text-decoration: none;
+        color: #272727;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .produtos, .informacoes, .redes {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
